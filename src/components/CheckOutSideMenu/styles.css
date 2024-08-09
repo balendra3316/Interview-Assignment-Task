@@ -1,0 +1,39 @@
+.checkout-side-menu {
+  height: calc(100vh - 68px);
+  top: 70px;
+}
+
+.checkout-side-menu,
+.checkout-section {
+  width: 360px;
+}
+
+.checkout-side-menu::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.checkout-side-menu::-webkit-scrollbar-track-piece {
+  background: #e49a9a;
+}
+.checkout-side-menu::-webkit-scrollbar-thumb {
+  background: #c8a0a0;
+  border: 2px solid #d3a3a3;
+  border-radius: 15px;
+}
+
+​ .fade-enter {
+  opacity: 0;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-enter-active {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+}
+.fade-enter-active,
+.fade-exit-active {
+  transition: opacity 500ms;
+}
