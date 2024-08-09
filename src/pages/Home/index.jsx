@@ -5,6 +5,7 @@ import { ProductDetail } from "../../components/ProductDetail/index";
 import { ShoppingCartContext } from "../../contexts";
 import { Nothing_related } from "./Nothing_related_svg";
 
+// hello for testing is there
 function Home() {
   const context = useContext(ShoppingCartContext);
 
